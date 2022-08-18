@@ -1,0 +1,50 @@
+<h1 id= "title"> Build a Survey Form</h1>
+<p id="description">Certification of Html</p>
+<form id="survey-form" action="Mail to    wilserfabian@gmail.com" method="post"    enctype="text/plain">
+<label for="name" id="name-label">Name:</label>
+<input type="text" id="name" name="name" placeholder="Introduce your name here" required>
+</br>
+<label for="email" id= "email-label">Email:</label>
+<input id="email" type="email" placeholder="Introduce your email here" required>
+</br>
+<label for="number" id="number-label">Group numbers:</label>
+<input type="number" id="number" min="0" max="100" placeholder="1">
+
+<br/>
+<label for="join-question">Enter Group:</label>
+<select name="join-question" id="dropdown" list="join-list">
+  <option  value="lost_confused" >I am lost and confused</option> 
+    <option value="group-learner" >I learn best in groups</option>
+    <option value="coders" >I like to meet people who love to code</option>
+    <option value="other">Other</option> 
+  </select>
+  </br>
+
+  <fieldset class="list">
+    <legend>Have you ever written any code?</legend>
+    <input type="radio" name="coder" value="yes"> Yes<br>
+    <input type="radio" name="coder" value="no"> No<br>
+  </fieldset>
+
+  <fieldset  class="list">
+    <legend>Coding Languages you have used</legend>
+    <label> <input type="checkbox" name="javascript"  value="javascript "> Javascript </label>
+    <label> <input type="checkbox" name="java" value="java "> Java </label>
+    <label> <input type="checkbox" name="code3" value="C++ "> C++ </label>
+    <label> <input type="checkbox" name="other" value="other "> Other </label>
+  </fieldset> 
+
+  <label for="comments ">Comments</label></br>
+  <textarea name="comments " id="comments " ></textarea>
+  </br>
+
+  <div id="btn-div">
+    <button id="submit">Submit</button>
+  </div>
+
+  </form>
+  </div>
+
+
+
+
